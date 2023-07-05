@@ -47,7 +47,7 @@ const salaryRangesList = [
 const apiStatusConstants = {
   initial: 'INITIAL',
   success: 'SUCCESS',
-  failure: 'FAILURE',
+  failure: 'FAIL',
   inProgress: 'IN PROGRESS',
 }
 
@@ -239,7 +239,7 @@ class AllJobs extends Component {
             type="button"
             onClick={this.onRetryJobs}
           >
-            retry
+            Retry
           </button>
         </div>
       </div>

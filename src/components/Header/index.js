@@ -1,7 +1,7 @@
 import {withRouter, Link} from 'react-router-dom'
 import {AiFillHome} from 'react-icons/ai'
 import {BsBriefcaseFill} from 'react-icons/bs'
-import {FiLogout} from 'react-icons/fi'
+import {FiLogOut} from 'react-icons/fi'
 import Cookies from 'js-cookie'
 import './index.css'
 
@@ -34,7 +34,7 @@ const Header = props => {
           </Link>
         </li>
         <li className="nav-button-container">
-          <FiLogout className="nav-icon" onClick={onClickLogout} />
+          <FiLogOut className="nav-icon" onClick={onClickLogout} />
           <button
             className="logout-button"
             type="button"

@@ -141,7 +141,7 @@ class AboutJob extends Component {
               <div className="description-visit-container">
                 <h1 className="description-job-heading">Description</h1>
                 <a className="visit -anchor" href={companyWebsiteUrl}>
-                  visit <BiLinkExternal />
+                  Visit <BiLinkExternal />
                 </a>
               </div>
               <p className="description-para">{jobDescription}</p>
@@ -172,7 +172,7 @@ class AboutJob extends Component {
             {similarJobsData.map(eachItem => (
               <SimilarJobs
                 key={eachItem.id}
-                similarJobsData={eachItem}
+                similarJobData={eachItem}
                 employmentType={employmentType}
               />
             ))}
@@ -202,7 +202,7 @@ class AboutJob extends Component {
           type="button"
           onClick={this.onRetryJobDetailsAgain}
         >
-          retry
+          Retry
         </button>
       </div>
     </div>
